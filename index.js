@@ -33,7 +33,7 @@ XPCOMUtils.defineLazyGetter(this, "toolDefinition", () => ({
   ordinal: 99,
 
   // Main keybinding key (used as a keyboard shortcut).
-  key: "A",
+  key: toolStrings.GetStringFromName("MyAddon.commandkey"),
 
   // Main keybinding modifiers.
   modifiers: osString == "Darwin" ? "accel,alt" : "accel,shift",
@@ -45,10 +45,10 @@ XPCOMUtils.defineLazyGetter(this, "toolDefinition", () => ({
   url: "chrome://jpm-devtools-tpl/content/tool.xul",
 
   // The tool's name. Showed in Firefox' tool menu and in the Toolbox' tab.
-  label: "Some fucking label",
+  label: toolStrings.GetStringFromName("MyAddon.label"),
 
   // The tooltip text shown in the Toolbox's tab.
-  tooltip: "Some fucking toolt",
+  tooltip: toolStrings.GetStringFromName("MyAddon.tooltip"),
 
   // If the target is not supported, the toolbox will hide the tab.
   // Targets can be local or remote (used in remote debugging).
