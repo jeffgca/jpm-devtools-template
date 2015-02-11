@@ -1,0 +1,17 @@
+{
+  "id": "",
+  "title": "Jetpack / XUL Devtools add-on example",
+  "name": "jpm-devtools-template",
+  "version": "0.0.1",
+  "description": "A template for devtools extensions using jpm and xul.",
+  "main": "index.js",
+  "author": "Jeff Griffiths ( @canuckistani )",
+  "engines": {
+    "firefox": ">=33.0a1",
+    "fennec": ">=33.0a1"
+  },
+  "license": "MPL",
+  "dependencies": {
+    "zest-creator": "0.0.1"
+  }
+}

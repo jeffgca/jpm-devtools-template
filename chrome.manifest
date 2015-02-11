@@ -1,0 +1,3 @@
+content jpm-devtools-tpl chrome/
+locale jpm-devtools-tpl en-US locale/en-US/
+skin jpm-devtools-tpl classic/1.0 skin/
